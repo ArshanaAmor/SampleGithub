@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:appbrain="http://schemas.android.com/apk/lib/com.appbrain"
+    android:id="@+id/activity_video_gallery"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home_background"
+    >
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/custom_toolbar"></include>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_above="@+id/native_banner_ad_container"
+        android:layout_below="@id/toolbar"
+        android:id="@+id/recyclerVideoGallery"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></androidx.recyclerview.widget.RecyclerView>
+    <com.facebook.ads.NativeAdLayout
+        android:id="@+id/native_banner_ad_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+    <FrameLayout
+        android:layout_centerInParent="true"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/banner_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        />
+</RelativeLayout>

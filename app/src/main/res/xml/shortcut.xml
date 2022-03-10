@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:icon="@drawable/notepad"
+        android:shortcutId="history"
+        android:shortcutLongLabel="@string/history"
+        android:shortcutShortLabel="@string/history">
+        <intent
+            android:action="com.arshana.raje.newActivity.HistoryActivity"
+            android:targetClass="com.arshana.raje.newActivity.HistoryActivity"
+            android:targetPackage="com.arshana.raje" />
+    </shortcut>
+
+    <shortcut
+        android:icon="@drawable/fort_new"
+        android:shortcutId="fort"
+        android:shortcutLongLabel="@string/fort"
+        android:shortcutShortLabel="@string/fort">
+        <intent
+            android:action="com.arshana.raje.newActivity.FortActivity"
+            android:targetClass="com.arshana.raje.newActivity.FortActivity"
+            android:targetPackage="com.arshana.raje" />
+    </shortcut>
+
+
+    <shortcut
+        android:icon="@drawable/youtube"
+        android:shortcutId="video"
+        android:shortcutLongLabel="@string/shivcharitra"
+        android:shortcutShortLabel="@string/shivcharitra">
+        <intent
+            android:action="com.arshana.raje.newActivity.ShivCharitraActivity"
+            android:targetClass="com.arshana.raje.newActivity.ShivCharitraActivity"
+            android:targetPackage="com.arshana.raje" />
+    </shortcut>
+
+    <shortcut
+        android:icon="@drawable/chat"
+        android:shortcutId="status"
+        android:shortcutLongLabel="@string/status"
+        android:shortcutShortLabel="@string/status">
+        <intent
+            android:action="com.arshana.raje.newActivity.StatusActivity"
+            android:targetClass="com.arshana.raje.newActivity.StatusActivity"
+            android:targetPackage="com.arshana.raje" />
+    </shortcut>
+    <shortcut
+        android:icon="@drawable/gallery"
+        android:shortcutId="gallery"
+        android:shortcutLongLabel="@string/photo_gallery"
+        android:shortcutShortLabel="@string/photo_gallery">
+        <intent
+            android:action="com.arshana.raje.newActivity.PhotoGalleryActivity"
+            android:targetClass="com.arshana.raje.newActivity.PhotoGalleryActivity"
+            android:targetPackage="com.arshana.raje" />
+    </shortcut>
+
+
+
+</shortcuts>

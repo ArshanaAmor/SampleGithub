@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "958400172256",
+    "firebase_url": "https://shivaji-raje-3f608.firebaseio.com",
+    "project_id": "shivaji-raje-3f608",
+    "storage_bucket": "shivaji-raje-3f608.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:958400172256:android:1a3edf2075317f0d",
+        "android_client_info": {
+          "package_name": "com.arshana.raje"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "958400172256-rjrmtiv57ho7mdram3frnhbs3erp4trp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoo930GOKX1BfV87YfZcwP7v-IJQMznyQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
